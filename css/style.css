@@ -1,5 +1,5 @@
 header {
-    background: url("../img/bg.png"); 
+    background: url("../img/bg.png");
     padding: 20px 0;
 }
 
@@ -16,7 +16,7 @@ nav {
 }
 
 nav li {
-    display: inline; 
+    display: inline;
     margin: 0 0 0 15px;
 }
 
@@ -34,68 +34,49 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.principal {
-  /*  background: #CCCCCC;*/
+.produtos {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
-   /* padding: 30px;*/
 }
 
-.titulo-principal {
-    padding-left: 20px;
-}
-
-.titulo-index {
-    text-align: center; 
-    font-size: 25px;
-    padding: 0 0 30px 0;
-}
-
-.principal p {
-    font-size: 16px;   
-    text-align: justify;
-}
-
-/*
-#missao {
-    font-size: 20px;
-}
-*/
-em strong {
-    color: red;
-}
-
-.itens {
-    font-style: italic;
-    text-align: center;
-    font-size: 16px;
-}
-
-.beneficios {
-    background: #FFFFFF;
-    padding: 20px;
-}
-
-.beneficios ul {
+.produtos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 25%; /** ocupa % da tela*/
-    margin-right: 15%;    
-    margin-left: 20%;    
+    margin: 0 1.5%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.beneficios ul li {
-    padding-bottom: 15px;
-    text-align: left;    
+.produtos li:hover {
+    border-color: #F02B25;
 }
 
-.imagembeneficios {
-    /*width: 50%;*/
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
+.produtos li:active {
+    border-color: #FF9326;
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 footer {
@@ -107,11 +88,48 @@ footer {
 .copyright {
     font-size: 13px;
     margin: 20px 0 0;
-    text-align: center;
 }
 
-.atribuicao {
-    font-size: 11px;
-    margin: 10px 0 0;
-    text-align: center;    
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #F02B25;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 100px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: rgb(134, 5, 9);
+    transform: scale(1.15);
 }

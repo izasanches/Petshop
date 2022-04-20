@@ -82,6 +82,12 @@ em strong {
     vertical-align: top;
     width: 25%; /** ocupa % da tela*/
     margin-right: 15%;    
+    margin-left: 20%;    
+}
+
+.beneficios ul li {
+    padding-bottom: 15px;
+    text-align: left;    
 }
 
 .imagembeneficios {
@@ -102,4 +108,10 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
     text-align: center;
+}
+
+.atribuicao {
+    font-size: 11px;
+    margin: 10px 0 0;
+    text-align: center;    
 }
